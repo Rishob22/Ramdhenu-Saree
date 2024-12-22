@@ -1,0 +1,44 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.6",
+    "@sanity/base": "^2.29.5",
+    "@sanity/client": "^3.2.0",
+    "@sanity/core": "^2.29.5",
+    "@sanity/default-layout": "^2.29.5",
+    "@sanity/default-login": "^2.29.5",
+    "@sanity/desk-tool": "^2.29.5",
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/image-url": "^1.0.1",
+    "@sanity/vision": "^2.29.5",
+    "@stripe/stripe-js": "^1.25.0",
+    "canvas-confetti": "^1.5.1",
+    "eslint": "^8.6.0",
+    "next": "12.1.0",
+    "next-sanity-image": "^3.2.1",
+    "prop-types": "^15.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-horizontal-scrolling-menu": "^8.2.0",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.3.1",
+    "stripe": "^8.209.0",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.16.7",
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.4"
+  }
+}
